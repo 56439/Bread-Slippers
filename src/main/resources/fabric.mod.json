@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bread-slippers",
+  "version": "${version}",
+  "name": "Bread Slippers",
+  "description": "Simple slippers made from bread. You can brag about them on Twitter.",
+  "authors": ["56439"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bread-slippers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ru.l56439l.breadSlippers.client.BreadSlippersClient"
+    ],
+    "main": [
+      "ru.l56439l.breadSlippers.BreadSlippers"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.source": "https://github.com/56439/Bread-Slippers",
+        "modmenu.modrinth": "https://modrinth.com/project/bread-slippers-mod"
+      }
+    }
+  }
+}
