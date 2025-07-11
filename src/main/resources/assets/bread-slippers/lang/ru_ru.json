@@ -2,5 +2,6 @@
   "item.bread-slippers.bread_boots": "Хлебные Тапочки",
   "item.bread-slippers.bread_block": "Хлебный Блок",
   "item.bread-slippers.carved_bread": "Вырезанный Хлеб",
-  "item.bread-slippers.bread_crumbs": "Хлебные крошки"
+  "item.bread-slippers.bread_crumbs": "Хлебные крошки",
+  "itemGroup.bread-slippers": "Хлебные Тапочки"
 }

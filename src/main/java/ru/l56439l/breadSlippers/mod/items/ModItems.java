@@ -32,7 +32,7 @@ public class ModItems {
     ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
         .register((itemGroup) -> itemGroup.add(ModItems.BREAD_BOOTS));
 
-    ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK)
         .register((itemGroup) -> itemGroup.add(ModItems.BREAD_CRUMBS));
   }
 
