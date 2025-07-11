@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "bread-slippers:block/carved_bread_side",
+    "down": "bread-slippers:block/carved_bread_side",
+    "up": "bread-slippers:block/carved_bread_side",
+    "north": "bread-slippers:block/carved_bread_front",
+    "south": "bread-slippers:block/carved_bread_side",
+    "west": "bread-slippers:block/carved_bread_side",
+    "east": "bread-slippers:block/carved_bread_side"
+  }
+}

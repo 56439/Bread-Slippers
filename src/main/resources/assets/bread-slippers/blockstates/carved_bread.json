@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "bread-slippers:block/carved_bread", "y": 0 },
+    "facing=east":  { "model": "bread-slippers:block/carved_bread", "y": 90 },
+    "facing=south": { "model": "bread-slippers:block/carved_bread", "y": 180 },
+    "facing=west":  { "model": "bread-slippers:block/carved_bread", "y": 270 }
+  }
+}

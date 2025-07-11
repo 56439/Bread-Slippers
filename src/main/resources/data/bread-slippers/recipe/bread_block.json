@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:bread"
+  },
+  "result": {
+    "id": "bread-slippers:bread_block",
+    "count": 1
+  }
+}
