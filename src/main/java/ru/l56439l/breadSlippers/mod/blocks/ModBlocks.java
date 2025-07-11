@@ -36,10 +36,10 @@ public class ModBlocks {
   );
 
   public static void initialize() {
-    ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL)
         .register((itemGroup) -> itemGroup.add(ModBlocks.BREAD_BLOCK.asItem()));
 
-    ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL)
         .register((itemGroup) -> itemGroup.add(ModBlocks.CARVED_BREAD.asItem()));
   }
 

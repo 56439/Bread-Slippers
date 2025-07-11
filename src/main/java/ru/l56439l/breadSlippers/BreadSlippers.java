@@ -2,6 +2,7 @@ package ru.l56439l.breadSlippers;
 
 import net.fabricmc.api.ModInitializer;
 import ru.l56439l.breadSlippers.mod.blocks.ModBlocks;
+import ru.l56439l.breadSlippers.mod.itemgroups.ModItemGroup;
 import ru.l56439l.breadSlippers.mod.items.ModItems;
 
 public class BreadSlippers implements ModInitializer {
@@ -12,5 +13,6 @@ public class BreadSlippers implements ModInitializer {
   public void onInitialize() {
     ModItems.initialize();
     ModBlocks.initialize();
+    ModItemGroup.initialize();
   }
 }
