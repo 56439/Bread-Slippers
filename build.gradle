@@ -1,3 +1,5 @@
+import org.codehaus.groovy.runtime.GStringImpl
+
 plugins {
     id 'fabric-loom' version '1.10.5'
     id 'maven-publish'
@@ -8,6 +10,10 @@ group = project.maven_group
 
 base {
     archivesName = project.archives_base_name
+}
+
+ext {
+    fullVersion = "$project.mod_version+mc$project.minecraft_version" as GStringImpl
 }
 
 repositories {
@@ -74,6 +80,7 @@ publishing {
     publications {
         create("mavenJava", MavenPublication) {
             artifactId = project.archives_base_name
+            version = project.ext.fullVersion
             from components.java
         }
     }
