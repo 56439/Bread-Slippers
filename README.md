@@ -1,4 +1,4 @@
-![bread_slippers_logo.png](img/logo.png)
+![Bread Slippers](https://i.ibb.co/WWnbzq38/bread-slippers-logo.png)
 
 ### 📖 About
 
