@@ -5,6 +5,7 @@
 Adds Bread Slippers which can be crafted from bread, Bread Block which can be crafted into Carved Bread with a shovel to get Bread Crumbs. Carved Bread can be worn on head and Bread Crumbs can be eaten.
 
 ## Available Versions:
+* [1.21.10](https://github.com/56439/Bread-Slippers/releases/tag/1.21.10-v1.1.2)
 * [1.21.9](https://github.com/56439/Bread-Slippers/releases/tag/1.21.9-v1.1.2)
 * [1.21.8](https://github.com/56439/Bread-Slippers/releases/tag/1.21.8-v1.1.2)
 * [1.21.7](https://github.com/56439/Bread-Slippers/releases/tag/1.21.7-v1.1.2)
