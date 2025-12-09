@@ -4,7 +4,6 @@ import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.ItemEntity;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -36,7 +35,7 @@ public class BreadBlock extends Block {
       PlayerEntity player, Hand hand, BlockHitResult hit) {
 
     if (SHOVELS.contains(stack.getItem())) {
-      if (!world.isClient) {
+      if (!world.isClient()) {
 
         Direction hitSide = hit.getSide();
         Direction direction =
@@ -50,7 +49,7 @@ public class BreadBlock extends Block {
 
         world.playSound(null, pos, SoundEvents.BLOCK_PUMPKIN_CARVE, SoundCategory.BLOCKS, 1.0F,
             1.0F);
-        stack.damage(1, player, LivingEntity.getSlotForHand(hand));
+        stack.damage(1, player);
 
         world.emitGameEvent(player, GameEvent.SHEAR, pos);
         player.incrementStat(Stats.USED.getOrCreateStat(stack.getItem()));
